@@ -5,8 +5,8 @@ import SubArticle from "./SubArticle";
 const Article = ({ scrollToTop, showButton }) => {
   return (
     <div>
-      <div className="lg:flex flex-col  lg:min-h-screen  lg:w-screen py-10 lg:h-screen  lg:px-48  bg-[#FAFAFA]">
-        <h1 className=" text-center pb-10 lg:text-start mx-auto font-Quicksand font-bold  lg:py-24 lg:mb-10 text-[36px] lg:text-[48px] text-slate-600 ">
+      <div className="lg:flex flex-col    lg:w-screen pb-8 lg:h-full  lg:px-48  bg-[#FAFAFA]">
+        <h1 className=" text-center pb-8 lg:text-start mx-auto font-Quicksand font-bold  lg:py-16 lg:mb-8 text-[36px] lg:text-[48px] text-slate-600 ">
           Lastest Article
         </h1>
         <SubArticle />

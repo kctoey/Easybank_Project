@@ -4,7 +4,7 @@ import { footerdata } from "../data";
 const Footer = () => {
   const { facebook, youtube, instagram, pinterest, twitter, Logo } = footerdata;
   return (
-    <div className="bg-[#2D314D]  lg:w-screen lg:h-48  ">
+    <div className="bg-[#2D314D]  w-screen lg:h-48  ">
       <div className=" p-10 lg:flex lg:flex-row lg:justify-between lg:px-40 lg:py-10 ">
         <div className="lg:flex flex-row lg:space-x-40 ">
           <div className="flex  justify-center items-center space-y-8 lg:flex flex-col lg:justify-between ">

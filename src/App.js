@@ -41,6 +41,7 @@ function App() {
       </div>
       <Detail />
       <Article showButton={showButton} scrollToTop={scrollToTop} />
+
       <Footer />
     </div>
   );

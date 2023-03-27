@@ -6,7 +6,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <div className="font-Quicksand lg:px-40  bg-white w-full h-[44px] lg:h-[65px] px-12  py-6  fixed flex flex-row justify-between z-10 drop-shadow-2xl place-items-center ">
+    <div className="font-Quicksand lg:px-40  bg-white w-full  h-[44px] lg:h-[65px] px-12  py-6  fixed flex flex-row justify-between z-10 drop-shadow-2xl place-items-center ">
       <div className="ml-0 z-20">
         <Logo />
       </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <button className="invisible lg:visible transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:duration-300 lg:absolute right-8 lg:items-right  font-bold rounded-full py-2 px-4 text-white bg-gradient-to-l from-cyan-400 to-green-400">
+      <button className="mr-24 invisible lg:visible transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:duration-300 lg:absolute right-8 lg:items-right  font-bold rounded-full py-2 px-4 text-white bg-gradient-to-l from-cyan-400 to-green-400">
         {btnText}
       </button>
       <div className="lg:invisible  flex items-center ">

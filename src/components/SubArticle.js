@@ -3,7 +3,7 @@ import { articledata } from "../data";
 const SubArticle = () => {
   const { money, restaurant, plane, confetti } = articledata;
   return (
-    <div className="flex flex-col  mx-auto lg:flex  lg:flex-row lg:w-full lg:space-x-20 font-Quicksand lg:pt-0 font-bold">
+    <div className="flex flex-col lg:h-full mx-auto lg:flex  lg:flex-row lg:w-full lg:space-x-8 font-Quicksand lg:pt-0 font-bold">
       <div
         data-aos="fade-right"
         data-aos-duration="1000"
